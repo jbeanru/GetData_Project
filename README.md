@@ -60,11 +60,12 @@ Please find the comments in the run_analysis.R script for details. The code comm
 
 The script will give the following outputs:
     
-    1. An in-Memory data frame of RStudio(If using it, others are similiar here) which stores
-    the tidy data required.
+    1. An in-Memory data frame of RStudio(If using it, others are similiar here) which
+    stores the tidy data required.
     
-    2. A text file named 'TidyData.txt' is saved in the working directory. The file is the saving
-     result of the 'tidyData' data frame. The file is created with write.table() using row.name=FALSE.
+    2. A text file named 'TidyData.txt' is saved in the working directory. The file is the
+    saving result of the 'tidyData' data frame. The file is created with write.table() using
+     row.name = FALSE.
 
  
 References
