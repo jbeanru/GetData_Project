@@ -1,5 +1,6 @@
-Project Submission for Getting and Cleaning Data
-=====================================
+# Project Submission
+## for Coursera Course 'Getting and Cleaning Data'
+
 Author: JBean (https://github.com/jbeanru/GetData_Project)
 
 Background
@@ -40,7 +41,7 @@ The script is self-contained. It will prepare all prerequisites if necessary (e.
 The script run_analysis.R do the following tasks as required:
  
  
-    0. Do necessary preparations, such as: downloading and extracting the data file if needed, etc.
+    0. Do necessary preparations, such as: downloading and extracting the data file if needed.
  	
     1. Merge the training and the test sets to create one data set.
     
@@ -50,8 +51,8 @@ The script run_analysis.R do the following tasks as required:
     
     4. Label the data set with descriptive variable names appropriately. 
     
-    5. Create a tidy data set with the average of each variable for each activity and each subject, 
-    from the data set in step 4.
+    5. Create a tidy data set with the average of each variable for each activity and each
+    subject, from the data set in step 4.
     
 Please find the comments in the run_analysis.R script for details. The code comments explain every line of the code nearly, as well as the thoughts and considerations of the script logic.
 
@@ -59,11 +60,11 @@ Please find the comments in the run_analysis.R script for details. The code comm
 
 The script will give the following outputs:
     
-    1. An in-Memory data frame of RStudio(If using it, others are similiar here) which stores the 
-    tidy data required.
+    1. An in-Memory data frame of RStudio(If using it, others are similiar here) which stores
+    the tidy data required.
     
-    2. A text file named 'TidyData.txt' is saved in the working directory. The file is the saving result
-    of the 'tidyData' data frame. The file is created with write.table() using row.name=FALSE.
+    2. A text file named 'TidyData.txt' is saved in the working directory. The file is the saving
+     result of the 'tidyData' data frame. The file is created with write.table() using row.name=FALSE.
 
  
 References
