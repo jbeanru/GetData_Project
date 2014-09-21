@@ -67,6 +67,7 @@ The script will give the following outputs:
     saving result of the 'tidyData' data frame. The file is created with write.table() using
      row.name = FALSE.
 
+Please see CodeBook.md in this repository for details on the explanation of tidy data.
  
 References
 ---------------------------
