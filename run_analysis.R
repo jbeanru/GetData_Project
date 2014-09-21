@@ -107,9 +107,7 @@ activities <- factor(activityLabels[,1],
 
 # name the activities in the data set
 #	'data.frame':	10299 obs. of  67 variables
-#	activities	V1		V2         	V3		......
-#	Standing	0.2885845	-0.02029417 	-0.1329051	......
-#	Standing 	0.2885845 	-0.02029417 	-0.1329051	......
+#	67 variables = Activities Col + 66 Measurements
 descriptiveSet <- cbind(activities, selectedSet)
 
 
