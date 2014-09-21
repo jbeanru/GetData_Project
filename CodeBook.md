@@ -14,9 +14,9 @@ Variables List
 
 Variable name    | Description
 -----------------|------------
- [1] Subjects|   
- [2] Activities|                                       
- [3] AverageTimeBodyAccelerationMeanX|
+ [1] Subjects| An identifier of the subject who carried out the experiment 
+ [2] Activities| Meaningful activity names                                      
+ [3] AverageTimeBodyAccelerationMeanX| 
  [4] AverageTimeBodyAccelerationMeanY|                 
  [5] AverageTimeBodyAccelerationMeanZ|                
  [6] AverageTimeBodyAccelerationStdX|                 
@@ -108,7 +108,10 @@ The data set TidyData.txt are derived from the data sources by the following ste
     
     4. Label the data set with descriptive variable names appropriately. 
     
-    5. Create a tidy data set with the average of each variable for each activity and each subject, from the data set in step 4.
+    5. Create a tidy data set with the average of each variable for each activity and each subject, from
+    the result data set in step 4.
+    
+    6. Save the tidy data set to TidyData.txt.
     
 An R script file, run_analysis.R is responsible for getting the data, doing the transformations, and generate the TidyData.txt. See:
 
