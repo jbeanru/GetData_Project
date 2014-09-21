@@ -173,18 +173,18 @@ tidyData <- group_by(step4Dataset, Subjects, Activities) %>%
 # add prefix 'Average' to the 66 measurements names.
 #	e.g. 'TimeBodyAccelerationMagnitudeMean' to 'AverageTimeBodyAccelerationMagnitudeMean'
 colnames(tidyData)  <- c("Subjects", "Activities", 
-			 sub("^" , "Average", selectedMeasureNames))
 
-# SAVE the the tidy data to text file
-write.table(tidyData, file = "TidyData.txt", row.name=FALSE)
+			 sub("^" , "Average", selectedMeasureNames))
 
 # DONE!!!
 #
-#	The tidyData above is the tidy data and TidyData.txt is the saved file.
-#	Where:
+#	tidyData is the tidy data set required.	Where:
 #		Final Result: 180 observes of  68 variables (180 * 68)
 #		68 variables = Subjects Col + Activities Col + 66 Measurements
 #
+
+# SAVE the the tidy data to text file TidyData.txt
+write.table(tidyData, file = "TidyData.txt", row.name=FALSE)
 
 
 ## References:
