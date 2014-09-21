@@ -1,5 +1,5 @@
-# Project Submission
-## for Coursera Course 'Getting and Cleaning Data'
+# README
+#### Project Submission for Coursera Course 'Getting and Cleaning Data'
 
 Author: JBean (https://github.com/jbeanru/GetData_Project)
 
